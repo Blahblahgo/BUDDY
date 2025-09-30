@@ -1,0 +1,8 @@
+[
+  {"time": "9:00am", "task": "Chadhuvkovaali"},
+  {"time": "2:00pm", "task": "Padukovaali"},
+  {"time": "5:00pm", "task": "Trading"},
+   {"time": "7:00pm", "task": "Free"},
+  {"time": "8:00pm", "task": "Projects"},
+  {"time": "11:00pm", "task": "sleep"}
+]
