@@ -307,4 +307,5 @@ def chat():
     return jsonify({"reply": translate_text(random.choice(default_responses), target_lang)})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000)) 
+    app.run(host="0.0.0.0", port=port, debug=False)
